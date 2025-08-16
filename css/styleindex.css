@@ -1,0 +1,132 @@
+.fullwidth{
+    width: 100%;
+}
+#Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-style: none none solid none;
+}
+#Header input{
+    padding:10px;
+    width: 280px;
+}
+#Header button{
+    padding: 10px;
+    background-color: orange;
+    border-style: none;
+    color: white;
+}
+#Header form{
+    width: 400px;
+}
+#Best-seller h1{
+    text-align: center;
+    padding: 10px;
+}
+#Best-seller .image-all{
+    display: flex;
+    width: 100%;
+    gap: 10px ;
+    flex: 1;
+}
+#Best-seller .image-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#Best-seller .image-right img{
+    height: 100%;
+    width: 100%;
+}
+#Best-seller{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+#Best-seller .Women-content{
+    flex:1;
+}
+#Best-seller .Women-content h2{
+    font-size: 200%;
+}
+#Best-seller .Women-content .Available {
+    font-size: 150%;
+    border: 1px solid black;
+    border-style: none none solid none;
+    padding-bottom: 5px;
+}
+#Best-seller .Women-content .Product{
+    font-size: 150%;
+}
+#Best-seller .Women-content .Del{
+    font-size: 150%;
+}
+#Best-seller .Women-content .Del del{
+    color: red;
+}
+#Best-seller .Women-content .Input{
+    font-size: 150%;
+    display: flex;
+    width: 50%;
+}
+#Best-seller .Women-content .Input label{
+    width: 20%;
+}
+#Best-seller .Women-content .Input input{
+    width: 30%;
+}
+#Best-seller .Women-content .Box-Buy{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#Best-seller .Women-content .Box-Item{
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+#Best-seller .Women-content h3{
+    font-size: 150%;
+}
+#Best-seller .Women-content p{
+    font-size: 120%;
+    padding: 15px;
+}
+#New-Year h1{
+    text-align: center;
+    padding: 15px;
+}
+#New-Year {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#New-Year .Item-Image{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 15%;
+    text-align: center;
+    border-radius: 10px;
+}
+#New-Year .Item-Image img{
+    width: 100%;
+    border-radius: 10px;
+}
+#New-Year .Item-Image .Buy-Now{
+    padding: 15px;
+    margin: 0 70px 20px;
+    background: green;
+    border-radius: 10px;
+}
+#Footer{
+    padding: 30px;
+    background: #76706e;
+    color: white;
+    text-align: center;
+}
